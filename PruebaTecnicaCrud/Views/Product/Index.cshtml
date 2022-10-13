@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewData["Title"] = "Client Page";
+}
+
+<div class="main_section_content_filter rounded-1">
+
+    <div class="main_section_content_filter_ctn">
+
+        <div class="main_section_content_search d-flex">
+
+            <input type="text" placeholder="Title" />
+            <a href="#" class="d-flex align-items-center justify-content-center" >
+                <i class="bi bi-search"></i>
+            </a>
+        </div>
+
+        <div class="main_section_content_addNew">
+
+            <a class="btn" asp-area="" asp-controller="Product" asp-action="Add" >
+                <i class="bi bi-plus-circle"></i>
+                <span>Add new</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="main_section_content_productSamples_ctn">
+
+    <div class="main_section_content_productSamples_header d-flex align-items-center justify-content-between">
+        <div>Title</div>
+        <div>Price</div>
+        <div>Stock</div>
+        <div>Description</div>
+        <div>Action</div>
+    </div>
+
+    <div class="main_section_content_productSamples_content">
+
+        <div class="main_section_content_productSamples d-flex align-items-center justify-content-between">
+            <div>Manzanas verde.</div>
+            <div>$7.58</div>
+            <div>24</div>
+            <div>manzanas verde criollas.</div>
+            <div>
+                <a href="#"><i class="bi bi-pencil"></i></a>
+                <a href="#"><i class="bi bi-trash"></i></a>
+            </div>
+        </div>
+
+        <div class="main_section_content_productSamples d-flex align-items-center justify-content-between">
+            <div>Mangos grandes criollos.</div>
+            <div>$24.50</div>
+            <div>11</div>
+            <div>mangos grandes criollos del cibao.</div>
+            <div>
+                <a href="#"><i class="bi bi-pencil"></i></a>
+                <a href="#"><i class="bi bi-trash"></i></a>
+            </div>
+        </div>
+
+        <div class="main_section_content_productSamples d-flex align-items-center justify-content-between">
+            <div>Limones grandes.</div>
+            <div>$9.53</div>
+            <div>36</div>
+            <div>limones grandes del sur.</div>
+            <div>
+                <a href="#"><i class="bi bi-pencil"></i></a>
+                <a href="#"><i class="bi bi-trash"></i></a>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+

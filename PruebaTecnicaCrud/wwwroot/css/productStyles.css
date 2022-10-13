@@ -1,0 +1,320 @@
+﻿
+.main_section_content_productSamples_ctn {
+    border: 1px solid #dddddd;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+.main_section_content_productSamples_header {
+    width: 100%;
+    border-bottom: 2px solid #dddddd;
+}
+
+.main_section_content_productSamples_header div {
+    box-sizing: border-box;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.main_section_content_productSamples_header div:nth-child(1) {
+    width: 30%;
+}
+
+.main_section_content_productSamples_header div:nth-child(2) {
+    width: 10%;
+}
+
+.main_section_content_productSamples_header div:nth-child(3) {
+    width: 10%;
+}
+
+.main_section_content_productSamples_header div:nth-child(4) {
+    width: 40%;
+}
+
+.main_section_content_productSamples_header div:nth-child(5) {
+    width: 10%;
+}
+
+
+
+.main_section_content_productSamples_content {
+    width: 100%;
+}
+
+.main_section_content_productSamples {
+    width: 100%;
+}
+
+.main_section_content_productSamples:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.main_section_content_productSamples:last-child {
+    border-bottom: none;
+}
+
+.main_section_content_productSamples div {
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+.main_section_content_productSamples div:nth-child(1) {
+    width: 30%;
+}
+
+.main_section_content_productSamples div:nth-child(2) {
+    width: 10%;
+}
+
+.main_section_content_productSamples div:nth-child(3) {
+    width: 10%;
+}
+
+.main_section_content_productSamples div:nth-child(4) {
+    width: 40%;
+}
+
+.main_section_content_productSamples div:nth-child(5) {
+    width: 10%;
+}
+
+.main_section_content_productSamples div a {
+    padding: 0;
+    margin-right: 15px;
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+
+/* ADD PRODUCT STYLES */
+
+.main_section_content_addProductForm_ctn {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.main_section_content_addProductForm_ctn h3 {
+    font-size: 1.4em;
+    color: #3d3d3d;
+}
+
+.main_section_content_addProductForm {
+    border: 1px solid;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.main_section_content_addProductForm div:nth-child(1) {
+    width: 60%;
+}
+
+.main_section_content_addProductForm div:nth-child(2) {
+    width: 20%;
+}
+
+.main_section_content_addProductForm div:nth-child(3) {
+    width: 20%;
+}
+
+.main_section_content_addProductForm div:nth-child(4) {
+    width: 70%;
+}
+
+.main_section_content_addProductForm div label {
+    font-weight: 600;
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+.main_section_content_addProductForm div input {
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+.main_section_content_addProductForm button {
+    font-size: 1em;
+}
+
+
+@media screen and (max-width: 834px) {
+
+
+    .main_section_content_productSamples_header div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.9em;
+    }
+
+    .main_section_content_productSamples_header div:nth-child(1) {
+        width: 30%;
+    }
+
+    .main_section_content_productSamples_header div:nth-child(2) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples_header div:nth-child(3) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples_header div:nth-child(4) {
+        width: 40%;
+    }
+
+    .main_section_content_productSamples_header div:nth-child(5) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.9em;
+    }
+
+    .main_section_content_productSamples div:nth-child(1) {
+        width: 30%;
+    }
+
+    .main_section_content_productSamples div:nth-child(2) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples div:nth-child(3) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples div:nth-child(4) {
+        width: 40%;
+    }
+
+    .main_section_content_productSamples div:nth-child(5) {
+        width: 10%;
+    }
+
+    .main_section_content_productSamples div a {
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+
+    /* ADD PRODUCT STYLES */
+
+
+    .main_section_content_addProductForm_ctn h3 {
+        font-size: 1.2em;
+    }
+
+    .main_section_content_addProductForm {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .main_section_content_addProductForm div:nth-child(1) {
+        width: 80%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(2) {
+        width: 30%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(3) {
+        width: 30%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(4) {
+        width: 90%;
+    }
+
+    .main_section_content_addProductForm div label {
+        font-size: 0.9em;
+    }
+
+
+    .main_section_content_addProductForm div input {
+        font-size: 0.9em;
+    }
+
+    .main_section_content_addProductForm button {
+        font-size: 0.9em;
+    }
+
+}
+
+
+@media screen and (max-width: 428px) {
+
+    .main_section_content_productSamples_header div {
+        padding: 6px 0;
+        padding-left: 2px;
+        font-size: 0.8em;
+    }
+
+    .main_section_content_productSamples div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.8em;
+    }
+
+    .main_section_content_productSamples div a {
+        margin-right: 0px;
+        font-size: 0.8em;
+    }
+
+    /* ADD PRODUCT STYLES */
+
+    .main_section_content_addProductForm_ctn h3 {
+        font-size: 1em;
+    }
+
+    .main_section_content_addProductForm {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .main_section_content_addProductForm div:nth-child(1) {
+        width: 100%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(2) {
+        width: 40%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(3) {
+        width: 40%;
+    }
+
+    .main_section_content_addProductForm div:nth-child(4) {
+        width: 100%;
+    }
+
+    .main_section_content_addProductForm div label {
+        font-size: 0.8em;
+    }
+
+
+    .main_section_content_addProductForm div input {
+        font-size: 0.8em;
+        padding: 4px 10px;
+    }
+
+    .main_section_content_addProductForm button {
+        font-size: 0.8em;
+    }
+
+}

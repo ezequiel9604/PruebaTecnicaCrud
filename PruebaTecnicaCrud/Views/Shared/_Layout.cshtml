@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PruebaTecnicaCrud</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/css/layoutStyles.css" />
+    <link rel="stylesheet" href="~/css/clientStyles.css" />
+    <link rel="stylesheet" href="~/css/productStyles.css" />
+    <link rel="stylesheet" href="~/css/orderStyles.css" />
+    <link rel="stylesheet" href="~/css/orderStyles.css" />
+
+</head>
+<body>
+    
+    <main>
+
+        <header class="main_header">
+
+            <div class="main_header_ctn container-fluid">
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <div class="main_header_ctn_left">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="main_header_ctn_left_logo text-decoration-none d-flex" asp-area="" asp-controller="Client" asp-action="Index">
+                                <i class="bi bi-shop"></i>
+                                <span class="d-flex justify-content-center align-items-center">Prueba Tecnica Crud</span>
+                            </a>
+
+                            <div class="main_header_ctn_left_route">
+                                Users / Overview
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main_header_ctn_right">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle d-flex justify-content-center align-items-center" 
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person"></i>
+                                <span>John Doe</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">View profile</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Log out</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="main_section d-flex align-items-start ">
+
+            <aside class="main_aside">
+
+                <div class="main_aside_list list-group">
+                    <a class="list-group-item list-group-item-action d-flex align-items-center active" aria-current="true"  asp-area="" asp-controller="Client" asp-action="Index">
+                        <i class="bi bi-folder2-open"></i>
+                        <span>Clients</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action d-flex align-items-center"  asp-area="" asp-controller="Product" asp-action="Index" >
+                        <i class="bi bi-folder2-open"></i>
+                        <span>Products</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action d-flex align-items-center"  asp-area="" asp-controller="Order" asp-action="Index" >
+                        <i class="bi bi-folder2-open"></i>
+                        <span>Orders</span>
+
+                    </a>
+                </div>
+
+            </aside>
+
+            <div class="main_section_content">
+
+                <nav class="main_section_content_responsiveNav rounded-2">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Client" asp-action="Index">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Order" asp-action="Index" >Orders</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                @RenderBody()
+
+            </div>
+
+        </section>
+
+    </main>
+    
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

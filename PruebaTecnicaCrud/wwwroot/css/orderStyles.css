@@ -1,0 +1,214 @@
+﻿
+.main_section_content_orderSamples_ctn {
+    border: 1px solid #dddddd;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.main_section_content_orderSamples_header {
+    width: 100%;
+    border-bottom: 2px solid #dddddd;
+}
+
+.main_section_content_orderSamples_header div {
+    box-sizing: border-box;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.main_section_content_orderSamples_header div:nth-child(1) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples_header div:nth-child(2) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples_header div:nth-child(3) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples_header div:nth-child(4) {
+    width: 45%;
+}
+
+.main_section_content_orderSamples_header div:nth-child(5) {
+    width: 10%;
+}
+
+
+.main_section_content_orderSamples_content {
+    width: 100%;
+}
+
+.main_section_content_orderSamples {
+    width: 100%;
+}
+
+.main_section_content_orderSamples:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.main_section_content_orderSamples:last-child {
+    border-bottom: none;
+}
+
+.main_section_content_orderSamples div {
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+.main_section_content_orderSamples div:nth-child(1) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples div:nth-child(2) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples div:nth-child(3) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples div:nth-child(4) {
+    width: 45%;
+    padding: 0px;
+}
+
+.main_section_content_orderSamples div:nth-child(5) {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main_section_content_orderSamples div:nth-child(4) li span {
+    border: 1px solid #dddddd;
+    padding: 4px;
+}
+
+.main_section_content_orderSamples div:nth-child(4) li span:nth-child(1) {
+    width: 50%;
+}
+
+.main_section_content_orderSamples div:nth-child(4) li span:nth-child(2) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples div:nth-child(4) li span:nth-child(3) {
+    width: 15%;
+}
+
+.main_section_content_orderSamples div:nth-child(4) li span:nth-child(4) {
+    width: 20%;
+}
+
+.main_section_content_orderSamples div a {
+    padding: 0;
+    margin-right: 15px;
+    font-size: 1em;
+}
+
+.main_section_content_orderSamples div a:first-child {
+    color: #99971c;
+}
+
+.main_section_content_orderSamples div a:last-child {
+    color: #ff0000;
+}
+
+
+
+@media screen and (max-width: 834px) {
+
+    .main_section_content_orderSamples_header div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.9em;
+    }
+
+    .main_section_content_orderSamples_header div:nth-child(1) {
+        width: 30%;
+    }
+
+    .main_section_content_orderSamples_header div:nth-child(2) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples_header div:nth-child(3) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples_header div:nth-child(4) {
+        width: 40%;
+    }
+
+    .main_section_content_orderSamples_header div:nth-child(5) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.9em;
+    }
+
+
+    .main_section_content_orderSamples div:nth-child(1) {
+        width: 30%;
+    }
+
+    .main_section_content_orderSamples div:nth-child(2) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples div:nth-child(3) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples div:nth-child(4) {
+        width: 40%;
+    }
+
+    .main_section_content_orderSamples div:nth-child(5) {
+        width: 10%;
+    }
+
+    .main_section_content_orderSamples div a {
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .main_section_content_orderSamples_header div {
+        padding: 6px 0;
+        padding-left: 2px;
+        font-size: 0.8em;
+    }
+
+    .main_section_content_orderSamples div {
+        padding: 8px 0;
+        padding-left: 2px;
+        font-size: 0.8em;
+    }
+
+    .main_section_content_orderSamples div a {
+        margin-right: 0px;
+        font-size: 0.8em;
+    }
+
+}

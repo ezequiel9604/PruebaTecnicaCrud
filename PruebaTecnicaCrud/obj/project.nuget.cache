@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ciKDOgzrA1pV6tH1I/5tu1QXmEkB4szQfV1bRHQ+RQ6w2FHJIBEKrWBK/zAz5piK30uMFGsKpm/OadekTDnskw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ezequiel\\Desktop\\C#Language\\MVC\\PruebaTecnicaCrud\\PruebaTecnicaCrud\\PruebaTecnicaCrud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ezequiel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}
