@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace PruebaTecnicaCrud.Entities
+namespace PruebaTecnicaCrud.Models
 {
     public class Product
     {
@@ -26,7 +26,7 @@ namespace PruebaTecnicaCrud.Entities
 
 
         // foreign keys
-        public List<OrderDetail> orderDetails { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
 
     }
 }

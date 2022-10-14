@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace PruebaTecnicaCrud.Entities
+namespace PruebaTecnicaCrud.Models
 {
     public class Order
     {
