@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 using PruebaTecnicaCrud.Repositories;
 using PruebaTecnicaCrud.DataContext;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using PruebaTecnicaCrud.Mapper;
 
 namespace PruebaTecnicaCrud
 {
@@ -29,7 +31,7 @@ namespace PruebaTecnicaCrud
             services.AddControllersWithViews();
 
             services.AddDbContext<PruebaTecnicaCrudDbContext>(opts => opts.UseSqlServer(
-                Configuration.GetConnectionString("DefaultConnection")));
+                Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
 
             services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
@@ -41,6 +43,13 @@ namespace PruebaTecnicaCrud
             {
                 builder.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
             }));
+
+            var mapperConfig = new MapperConfiguration(mpc =>
+            {
+                mpc.AddProfile(new MappingConfig());
+            });
+
+            services.AddSingleton(mapperConfig.CreateMapper());
 
         }
 

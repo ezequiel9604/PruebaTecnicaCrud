@@ -1,4 +1,5 @@
 ﻿
+@model List<PruebaTecnicaCrud.DTOs.ClientDTO>;
 
 @{
     ViewData["Title"] = "Client Page";
@@ -33,7 +34,7 @@
 <div class="main_section_content_clientSamples_ctn">
 
     <div class="main_section_content_clientSamples_header d-flex align-items-center justify-content-between">
-        <div>Name</div>
+        <div>Name @Model.Count </div>
         <div>Email</div>
         <div>Phone</div>
         <div>Address</div>

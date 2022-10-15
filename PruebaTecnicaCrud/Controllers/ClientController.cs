@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PruebaTecnicaCrud.Models;
+using PruebaTecnicaCrud.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,15 +13,21 @@ namespace PruebaTecnicaCrud.Controllers
     public class ClientController : Controller
     {
         private readonly ILogger<ClientController> _logger;
+        private readonly IClientRepository _clientRepository;
 
-        public ClientController(ILogger<ClientController> logger)
+        public ClientController(ILogger<ClientController> logger,
+            IClientRepository clientRepository)
         {
             _logger = logger;
+            _clientRepository = clientRepository;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+
+            var dtos = await _clientRepository.GetAllAsync();
+
+            return View(dtos);
         }
 
         public IActionResult Add()
